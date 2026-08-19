@@ -101,10 +101,12 @@ ans3 = st.text_input(
     "ข้อ 3: People use to work `l _ p t _ p `. 💻 ",
     value=st.session_state.ans3_val,
 )
+
 ans4 = st.text_input(
     "ข้อ4: Monkey love to eat this `b _ n _ n a `. 🍌  ",
     value=st.session_state.ans4_val,
-    
+)    
+
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2

@@ -60,7 +60,7 @@ def show_result_dialog(ans1, ans2):
 if u_ans == "banana":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
-        else:
+    else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")

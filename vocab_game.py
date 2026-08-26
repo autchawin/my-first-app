@@ -93,10 +93,12 @@ ans1 = st.text_input(
     "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
     value=st.session_state.ans1_val,
 )
+
 ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
+
 ans3 = st.text_input(
     "ข้อ 3: People use to work `l _ p t _ p `. 💻 ",
     value=st.session_state.ans3_val,
